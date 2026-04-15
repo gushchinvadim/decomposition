@@ -1,0 +1,86 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.header-left {
+  flex: 1;
+}
+
+/* --- Новости --- */
+.top-news {
+  margin-bottom: 15px;
+}
+
+.news-tabs {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  align-items: center;
+}
+
+.tab {
+  color: #0066cc;
+  cursor: pointer;
+}
+
+.tab.active {
+  font-weight: bold;
+  color: #000;
+}
+
+.date {
+  color: #999;
+  margin-left: auto;
+  font-size: 13px;
+}
+
+.news-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.news-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 6px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.news-icon {
+  font-size: 12px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.news-text {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.news-text:hover {
+  text-decoration: underline;
+}
+
+/* --- Курсы валют --- */
+.exchange-rates {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  font-size: 13px;
+  align-items: center;
+}
+
+.rate-item {
+  color: #333;
+  white-space: nowrap;
+}

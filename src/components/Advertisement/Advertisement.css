@@ -1,0 +1,44 @@
+/* Advertisement */
+.advertisement {
+  margin: 20px 0;
+}
+
+.ad-banner {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 8px;
+  display: flex;
+  align-items: right;
+  justify-content: center;
+  color: #0e0d0d;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.ad-label {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(0,0,0,0.7);
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .content-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .main-navigation {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .exchange-rates {
+    flex-wrap: wrap;
+  }
+}
