@@ -1,3 +1,9 @@
+# decomposition
+
+### 🔗 Live Demo
+
+[![🚀 Live Demo](https://img.shields.io/badge/🚀_Live-Demo-2ea44f?style=for-the-badge)](https://gushchinvadim.github.io/decomposition/)
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
